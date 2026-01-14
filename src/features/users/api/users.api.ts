@@ -1,4 +1,4 @@
-import { apiClient } from '../../../app/config/axios';
+import { apiClient } from '@/app/config/axios';
 import type { User } from '../types/users.types';
 
 export const getUsers = async (): Promise<User[]> => {

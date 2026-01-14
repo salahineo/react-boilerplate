@@ -1,6 +1,6 @@
 import React from 'react';
 import { QueryProvider } from './QueryProvider';
-import '../../shared/lib/i18n';
+import '@/shared/lib/i18n';
 
 interface AppProvidersProps {
   children: React.ReactNode;

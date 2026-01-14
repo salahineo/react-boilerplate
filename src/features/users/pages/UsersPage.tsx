@@ -1,6 +1,6 @@
 import { UsersTable } from '../components/UsersTable';
 import { useTranslation } from 'react-i18next';
-import { LanguageSwitcher } from '../../../shared/components/global/LanguageSwitcher.tsx';
+import { LanguageSwitcher } from '@/shared/components/global/LanguageSwitcher.tsx';
 import { Link } from 'react-router-dom';
 
 export const UsersPage = () => {
