@@ -1,0 +1,20 @@
+{
+  "common": {
+    "error": "An error occurred",
+    "errorDescription": "An unexpected error occurred. Please try again later",
+    "notFound": "Page not found",
+    "backHome": "Back to Home"
+  },
+  "home": {
+    "title": "React Boilerplate",
+    "description": "This is a modern React application built with Vite, TypeScript, and Tailwind CSS.\nClick below to view the Users list and verify data fetching.",
+    "viewUsers": "View Users"
+  },
+  "users": {
+    "title": "User Management",
+    "loading": "Loading users...",
+    "error": "Failed to load users.",
+    "name": "Name",
+    "email": "Email"
+  }
+}
