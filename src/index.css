@@ -1,76 +1,7 @@
 @import "tailwindcss";
 
-/* Custom CSS Variables (Tailwind v4 compatible) */
 @theme {
-  /* Primary Color - Orange (#FF8447) */
-  --color-primary-50: #fff3ed;
-  --color-primary-100: #ffe4d4;
-  --color-primary-200: #ffc5a8;
-  --color-primary-300: #ff9d71;
-  --color-primary-400: #ff6e38;
-  --color-primary-500: #ff8447;
-  --color-primary-600: #f05a1c;
-  --color-primary-700: #c74512;
-  --color-primary-800: #9e3a13;
-  --color-primary-900: #7f3313;
-
-  /* Secondary Color - Dark Blue (#12407F) */
-  --color-secondary-50: #eff6ff;
-  --color-secondary-100: #dbeafe;
-  --color-secondary-200: #bfdbfe;
-  --color-secondary-300: #93bbfd;
-  --color-secondary-400: #6097fa;
-  --color-secondary-500: #3b74f5;
-  --color-secondary-600: #2556ea;
-  --color-secondary-700: #12407F;
-  --color-secondary-800: #1d3b88;
-  --color-secondary-900: #1e3470;
-
-  /* Success Color - Green */
-  --color-success-50: #f0fdf4;
-  --color-success-100: #dcfce7;
-  --color-success-200: #bbf7d0;
-  --color-success-300: #86efac;
-  --color-success-400: #4ade80;
-  --color-success-500: #22c55e;
-  --color-success-600: #16a34a;
-  --color-success-700: #15803d;
-  --color-success-800: #166534;
-  --color-success-900: #14532d;
-
-  /* Danger Color - Red */
-  --color-danger-50: #fef2f2;
-  --color-danger-100: #fee2e2;
-  --color-danger-200: #fecaca;
-  --color-danger-300: #fca5a5;
-  --color-danger-400: #f87171;
-  --color-danger-500: #ef4444;
-  --color-danger-600: #dc2626;
-  --color-danger-700: #b91c1c;
-  --color-danger-800: #991b1b;
-  --color-danger-900: #7f1d1d;
-
-  /* Warning Color - Yellow */
-  --color-warning-50: #fffbeb;
-  --color-warning-100: #fef3c7;
-  --color-warning-200: #fde68a;
-  --color-warning-300: #fcd34d;
-  --color-warning-400: #fbbf24;
-  --color-warning-500: #f59e0b;
-  --color-warning-600: #d97706;
-  --color-warning-700: #b45309;
-  --color-warning-800: #92400e;
-  --color-warning-900: #78350f;
-
-  /* Font Family */
   --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
-}
-
-/* Base Styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 html {
@@ -93,7 +24,6 @@ body {
   min-height: 100vh;
 }
 
-/* RTL Support */
 [dir="rtl"] {
   direction: rtl;
 }
